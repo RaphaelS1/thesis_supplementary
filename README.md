@@ -23,6 +23,7 @@ Images and code are separated into folders of the same name. Each is structured 
 ## Images
 
 All images included in the above PhD thesis are in the "images" folder. Images may be copied and reproduced if appropriately cited.
+Graphics such as UML diagrams and pipelines are not included in this repo, these can be requested by opening an issue.
 
 ## Code
 
@@ -39,3 +40,4 @@ Please open an [issue](https://github.com/RaphaelS1/thesis_code_images/issues) t
 1. Bugs in the code
 2. Reproducibility issues between the code and examples in the thesis
 3. Missing images or code
+4. Requesting an image not in this repo such as UML diagrams or pipelines
