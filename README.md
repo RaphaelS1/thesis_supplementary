@@ -7,7 +7,17 @@ Sonabend, R. E. B. (2021). A Theoretical and Methodological Framework for Machin
 
 ## Structure
 
-Images and code are separated into folders of the same name. Each is structured with sub-folders that reflect the corresponding chapter number/name in the thesis.
+Images and code are separated into folders of the same name. Each is structured with sub-folders that reflect the corresponding chapter number/name in the thesis as follows:
+
+| Folder | Chapter |
+|:----------|:----------|
+| c2_set | Chapter 2: Survival Analysis and Machine Learning |
+| c3_mod | Chapter 3: A Critical Survey of Survival Analysis Models |
+| c4_eval | Chapter 4: Model Evaluation |
+| c5_car | Chapter 5: Composition and Reduction |
+| c6_tools | Chapter 6: Software Packages |
+| c7_bench | Chapter 7: A Benchmark Experiment of Survival Models |
+
 
 ## Images
 
