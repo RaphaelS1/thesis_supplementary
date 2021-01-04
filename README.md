@@ -23,4 +23,4 @@ Datasets and results for the real experiments in Chapter 7 are inside "code/c7_b
 
 ## Issues
 
-Please open an [issue](www.github.com/RaphaelS1/thesis_code_images/issues) to report any: i) bugs in the code; ii) reproducibility issues between the code and examples in the thesis; iii) missing images or code.
+Please open an [issue](https://github.com/RaphaelS1/thesis_code_images/issues) to report any: i) bugs in the code; ii) reproducibility issues between the code and examples in the thesis; iii) missing images or code.
