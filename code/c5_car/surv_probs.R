@@ -1,0 +1,17 @@
+library(ggplot2)
+set.seed(42)
+p = ggplot(data = data.frame(x = 1:10, y = sort(runif(10), TRUE)), aes(x = x, y = y)) +
+  xlim(1, 10) + ylim(0, 1) + labs(x = "T", y = "S(T)")
+
+p + geom_point() + theme_minimal()
+dev.copy(png, "../images/c5_car/surv_points.png", width = 7, height = 4, res = 300, units = "in")
+dev.off()
+p + geom_point() + geom_step() + theme_minimal()
+dev.copy(png, "../images/c5_car/surv_step.png", width = 7, height = 4, res = 300, units = "in")
+dev.off()
+p + geom_smooth(method = "loess") + theme_minimal()
+dev.copy(png, "../images/c5_car/surv_loess.png", width = 7, height = 4, res = 300, units = "in")
+dev.off()
+p + geom_smooth(method = "glm") + theme_minimal()
+dev.copy(png, "../images/c5_car/surv_glm.png", width = 7, height = 4, res = 300, units = "in")
+dev.off()
