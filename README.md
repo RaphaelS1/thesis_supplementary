@@ -22,12 +22,12 @@ Images and code are separated into folders of the same name. Each is structured 
 
 ## Images
 
-All images included in the above PhD thesis are in the "images" folder. Images may be copied and reproduced if appropriately cited.
+All images included in the above PhD thesis are in the "images" folder. Images may be reproduced if appropriately cited.
 Graphics such as UML diagrams and pipelines are not included in this repo, these can be requested by opening an issue.
 
 ## Code
 
-All examples and benchmark experiments in the above PhD thesis are in the "code" folder. All code should include seeds for reproducibility. Code was written across varying package versions and R versions. Job scripts in "c7_bench" and related R scripts can largely be ignored as they will not be applicable to other clusters.
+All examples and benchmark experiments in the above PhD thesis are in the "code" folder. All code should include seeds for reproducibility. Code was written across varying package versions and R versions. All code is licensed under an MIT licence.
 
 ## Datasets and results
 
