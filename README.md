@@ -2,7 +2,7 @@
 
 ## About
 
-Supporting code and images for:
+Supporting code, images, datasets, and results for:
 
 _Sonabend, R. E. B. (2021). A Theoretical and Methodological Framework for Machine Learning in Survival Analysis: Enabling Transparent and Accessible Predictive Modelling on Right-Censored Time-to-Event Data. Unpublished doctoral thesis. UCL._
 
@@ -19,6 +19,7 @@ Images and code are separated into folders of the same name. Each is structured 
 | c6_tools | Chapter 6: Software Packages |
 | c7_bench | Chapter 7: A Benchmark Experiment of Survival Models |
 
+The `results` folder contains results from the two experiments from Chapter 7.
 
 ## Images
 
@@ -29,9 +30,13 @@ Graphics such as UML diagrams and pipelines are not included in this repo, these
 
 All examples and benchmark experiments in the thesis are in the "code" folder. All code should include seeds for reproducibility. Code was written across varying package versions and R versions. All code is licensed under an MIT licence.
 
-## Datasets and results
+## Results
 
-Datasets and results for the real experiments in Chapter 7 are inside "code/c7_bench/real_jobs". Simulated datasets can be generated with code in "code/c7_bench/sim_jobs" with results in the same folder.
+The results from the two benchmark experiments from Chapter 7 are in this folder. "real_results.csv" contains the results for the real experiments and "sim_results.csv" is the results of the simulation experiments. These are the 'raw' results before any modifications to the data. Each row represents the aggregated score (over all folds) for a data/model pairing.
+
+## Datasets
+
+Datasets for the real experiments in Chapter 7 are inside "code/c7_bench/real_jobs/data". Simulated datasets can be generated with the code from "code/c7_bench/sim_jobs/benchmark/gen_simulated_data.R".
 
 ## Issues
 
